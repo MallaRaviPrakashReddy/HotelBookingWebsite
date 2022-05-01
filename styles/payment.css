@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     width: 100%;
     height: 100%;
+    background-color: #e0e0e0;
 }
 header img{
     height: 60px;
@@ -9,4 +14,34 @@ header img{
 #container img{
     height: 500px;
     width: 500px;
+}
+header,footer{
+    background-color: rosybrown;
+}
+#card{
+    background-color: rgb(132,136,139);
+    width: 50%;
+    height: 20%;
+    margin: 2% auto 2% auto;
+}
+#card p,h3{
+    margin-top: 2%;
+}
+#details{
+    margin: 2%;
+}
+#details p{
+    margin-top: 1%;
+    
+}
+#tarrif{
+    margin: 2%;
+    border:  1px solid black;
+    border-radius: 5px;
+}
+#tarrif p{
+    margin-top: 1%;
+}
+#info{
+    padding: 1% 2% 1% 2%;
 }
